@@ -33,6 +33,7 @@ RUN cd /opt && \
     && rm image-gen.zip \
     && mv Semoss-image-gen semosshome
 
+# TODO: Find better port
 EXPOSE 6565
 
 WORKDIR /opt/semosshome/py
