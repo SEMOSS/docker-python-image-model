@@ -1,0 +1,14 @@
+annoy==1.15.2
+deepdiff
+fuzzywuzzy
+jsonpickle
+numpy==1.24.4
+matplotlib
+scikit-learn
+seaborn
+pandas==2.0.0
+pandasql
+python-Levenshtein
+pyjarowinkler
+swifter
+xlrd
