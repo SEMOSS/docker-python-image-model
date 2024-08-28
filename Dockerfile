@@ -38,4 +38,4 @@ EXPOSE 6565
 
 WORKDIR /opt/semosshome/py
 
-CMD ["python3", "gaas_tcp_socket_server.py", "--port", "6565", "--max_count", "5", "--py_folder", "/opt/semosshome/py", "--insight_folder", "/path/to/insight", "--prefix", "some_prefix", "--timeout", "10", "--start", "True"]
+CMD ["python3", "gaas_tcp_socket_server.py", "--port", "6565", "--max_count", "5", "--py_folder", "/opt/semosshome/py", "--insight_folder", "/opt/semosshome/InsightCache/", "--prefix", "", "--timeout", "10", "--start", "True"]
